@@ -30,6 +30,11 @@
 
 
 /**
+ * Show the badge over imageView of UIButton instead of default behavior
+ */
+@property (nonatomic, assign) BOOL displayOverImageForButtons;
+
+/**
  * Increment the badge value, which will result in the badge being displayed if the current value is zero.
  */
 - (void)increment;
